@@ -1,20 +1,17 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Assignment Decoder AI
 
-# Run and deploy your AI Studio app
+A Google AI Studio Build Mode app that helps university students decode assignment instructions.
 
-This contains everything you need to run your app locally.
+## What It Does
+Paste any assignment prompt and the app returns a five-section breakdown:
+1. Plain Explanation
+2. Deliverables
+3. Step-by-Step Plan
+4. Missing or Unclear Information
+5. Questions to Ask the Professor or TA
 
-View your app in AI Studio: https://ai.studio/apps/d310a00b-4513-462b-b0f4-276b41b3218a
+The app never completes assignments or produces final answers.
 
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Versions
+- Version 1 (Revision 5.1): Initial Build prompt translation from Playground
+- Version 2 (Revision 5.2): Refined UNCLEAR exclusion rule for minor details
